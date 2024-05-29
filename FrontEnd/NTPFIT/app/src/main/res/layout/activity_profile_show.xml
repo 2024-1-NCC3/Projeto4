@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    >
+
+    <!-- Título do Perfil -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="SEU PERFIL"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- TextView para "Nome:" -->
+    <TextView
+        android:id="@+id/textViewLabelNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:text="Nome:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- TextView para o nome do usuário -->
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewLabelNome"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/textViewLabelNome"
+        android:text="Fulano de Tal"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- TextView para "Idade:" -->
+    <TextView
+        android:id="@+id/textViewLabelIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLabelNome"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="Idade:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- TextView para a idade do usuário -->
+    <TextView
+        android:id="@+id/textViewIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewLabelIdade"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/textViewLabelIdade"
+        android:text="25"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- TextView para "Email:" -->
+    <TextView
+        android:id="@+id/textViewLabelEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLabelIdade"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="Email:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- TextView para o email do usuário -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewLabelEmail"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/textViewLabelEmail"
+        android:text="fulano@exemplo.com"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- TextView para "Telefone:" -->
+    <TextView
+        android:id="@+id/textViewLabelTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLabelEmail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="Telefone:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- TextView para o telefone do usuário -->
+    <TextView
+        android:id="@+id/textViewTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewLabelTelefone"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/textViewLabelTelefone"
+        android:text="(11) 1234-5678"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- TextView para "Peso:" -->
+    <TextView
+        android:id="@+id/textViewLabelPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLabelTelefone"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="Peso:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- TextView para o peso do usuário -->
+    <TextView
+        android:id="@+id/textViewPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewLabelPeso"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/textViewLabelPeso"
+        android:text="70 kg"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLabelPeso"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="Edit"
+        android:text="VOLTAR AO MENU "
+        android:textColor="#000000"
+        app:iconTint="#FFFFFF" />
+
+</RelativeLayout>
