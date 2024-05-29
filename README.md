@@ -4,15 +4,15 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# NTPFIT
 
-## Nome do Grupo
+## NTP
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Giovanni Pellazza</a>, <a href="https://www.linkedin.com/in/victorbarq/">Pedro Henrique Dangelo dos Reis</a>, <a href="https://www.linkedin.com/in/victorbarq/">Vinicius Felix Rosatto Teixeira </a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Vinicius Heltai</a>, <a href="https://www.linkedin.com/in/victorbarq/">Katia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/victorbarq/"> Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/victorbarq/"> Cristina Machado Correa Leite</a>
 
-## Descrição
+## O "NTP Fit" é um aplicativo inovador e prático que ajuda você a calcular e gerenciar suas calorias diárias com base nas suas informações pessoais e nos alimentos consumidos. Ideal para quem busca uma alimentação saudável e equilibrada, o aplicativo serve para facilitar o acompanhamento da sua dieta e o alcance dos seus objetivos de saúde.
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
@@ -20,12 +20,12 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Nosso aplicativo é ideal para indivíduos comprometidos com sua saúde e fitness. Seja você um iniciante na jornada de bem-estar ou um entusiasta experiente. Nosso aplicativo é livre porém usuários que mais utilizam são entre 12 a 60 anos.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+O NTP Fit é um aplicativo no qual o usuário insere sua altura e peso, o aplicativo faz uma breve análise
+do consumo diário de calorias, oferece pratos aos usuários com suas certas quantidades de calorias que o indivíduo precisa ingerir em sua refeição. 
 <br><br>
-May the force be with you!
-<br><br>
+
 
 ## 🛠 Estrutura de pastas
 
@@ -101,18 +101,17 @@ Coloque código do prompt de comnando se for necessário
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.2.1 - 25/03/2024
+    * MUDANÇA: Login Funcional
+* 0.2.0 - 15/04/2024
+    * Primeira funcionalidade incluida (pratos)
+    * Segunda fucnionalidaed incluida (kcal)
+* 0.1.1 - 05/05/2024
+    * Corrigindo bugs do profile view
+* 0.1.0 - 15/05/2024
+    * Beta lançado
+* 0.0.1 - 20/04/2024
+    * apkicativo lançado
 
 ## 📋 Licença/License
 
